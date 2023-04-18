@@ -1,0 +1,15 @@
+pandas
+numpy
+matplotlib
+ipywidgets
+scikit-learn
+plotly
+yellowbrick
+seaborn
+statsmodels
+dtreeviz
+nltk
+gensim
+tensorflow
+jax[cpu]
+gym[classic_control,box2d,atari,accept-rom-license]
