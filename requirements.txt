@@ -8,6 +8,7 @@ yellowbrick
 seaborn
 statsmodels
 dtreeviz
+xgboost
 nltk
 gensim
 tensorflow
