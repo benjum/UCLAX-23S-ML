@@ -1,0 +1,16 @@
+ARG BASE_CONTAINER=jupyter/scipy-notebook
+FROM $BASE_CONTAINER
+
+LABEL maintainer="Benjamin John Winjum <bwinjum@oarc.ucla.edu"
+
+USER $NB_UID
+
+RUN pip install nltk
+COPY Week06_NB1_RecPopular.ipynb /home/jovyan/Week06_NB1_RecPopular.ipynb
+COPY Week06_NB2_RecCollab.ipynb /home/jovyan/Week06_NB2_RecCollab.ipynb
+COPY Week06_NB3_NLTKIntro.ipynb /home/jovyan/Week06_NB3_NLTKIntro.ipynb
+COPY Week06_NB4_Sentiment.ipynb /home/jovyan/Week06_NB4_Sentiment.ipynb
+COPY Week06_NB5_RecContent.ipynb /home/jovyan/Week06_NB5_RecContent.ipynb
+COPY movielens-data /home/jovyan/movielens-data
+COPY rt-polaritydata /home/jovyan/rt-polaritydata
+
