@@ -10,3 +10,4 @@ statsmodels
 dtreeviz
 xgboost
 nltk
+tensorflow
