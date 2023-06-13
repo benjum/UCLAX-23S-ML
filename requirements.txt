@@ -11,3 +11,4 @@ dtreeviz
 xgboost
 nltk
 tensorflow
+jax[cpu]
